@@ -19,12 +19,6 @@ import localeMultiDAnalysis from '@/views/visualization/multi-dimension-data-ana
 import localeSuccess from '@/views/result/success/locale/zh-CN';
 import localeError from '@/views/result/error/locale/zh-CN';
 
-import locale403 from '@/views/exception/403/locale/zh-CN';
-import locale404 from '@/views/exception/404/locale/zh-CN';
-import locale500 from '@/views/exception/500/locale/zh-CN';
-
-import localeUserInfo from '@/views/user/info/locale/zh-CN';
-import localeUserSetting from '@/views/user/setting/locale/zh-CN';
 
 import localeSettings from './zh-CN/settings';
 
@@ -35,7 +29,6 @@ export default {
   'menu.server.monitor': '实时监控-服务端',
   'menu.list': '列表页',
   'menu.result': '结果页',
-  'menu.exception': '异常页',
   'menu.form': '表单页',
   'menu.profile': '详情页',
   'menu.visualization': '数据可视化',
@@ -58,9 +51,4 @@ export default {
   ...localeMultiDAnalysis,
   ...localeSuccess,
   ...localeError,
-  ...locale403,
-  ...locale404,
-  ...locale500,
-  ...localeUserInfo,
-  ...localeUserSetting,
 };
